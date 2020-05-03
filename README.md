@@ -64,8 +64,7 @@ class MyApp extends Component {
 |inputprops|Object which accepts all the parameters that will be used in input tag|No|`inputprops={{inputclass: 'form-control-input',autocomplete: 'off'tabIndex=-1,}`|
 |variant|This gives different types of variant options that can be choosed for strength display|linear-stripped|`variant=line`|
 |labeltext|The label text for password field|No|`labeltext=Password`|
-|changecallback|A callback function which gets triggered onChange which gives the input value in the format `{value: typedValue,isValid: boolean,score: score}`.isValid is a boolean which depends on the input length and score.score value ranges from 0 to 4 which depends on password strength and complexity.value gives the inputvalue in the field
-|No|`changecallback={val => {changeCallBackHandler(val);}}`|
+|changecallback|A callback function which gets triggered onChange which gives the input value in the format `{value: typedValue,isValid: boolean,score: score}`.isValid is a boolean which depends on the input length and score.score value ranges from 0 to 4 which depends on password strength and complexity.value gives the inputvalue in the field|No|`changecallback={val => {changeCallBackHandler(val);}}`|
 
 #### variants
 
