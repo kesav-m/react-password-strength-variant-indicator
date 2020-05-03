@@ -70,12 +70,12 @@ class MyApp extends Component {
 
 |variant name|Example|
 |----|----|
-|`variant=linear`|![linear](https://raw.githubusercontent.com/kesav-m/react-password-strength-variant-indicator/blob/master/linear.png)|
-|`variant=linear-stripped`|![linear-stripped](https://github.com/kesav-m/react-password-strength-variant-indicator/blob/master/linear-stripped.png)|
-|`variant=discontinuous`|![discontinuous](https://github.com/kesav-m/react-password-strength-variant-indicator/blob/master/discontinuous.png)|
-|`variant=discontinuous-stripped`|![discontinuous-stripped](https://github.com/kesav-m/react-password-strength-variant-indicator/blob/master/discontinuous-stripped.png)|
-|`variant=circle`|![circle](https://github.com/kesav-m/react-password-strength-variant-indicator/blob/master/circle.png)|
-|`variant=line`|![line](https://github.com/kesav-m/react-password-strength-variant-indicator/blob/master/line.png)|
+|`variant=linear`|<img alt="linear" src="https://github.com/kesav-m/react-password-strength-variant-indicator/blob/master/linear.png">|
+|`variant=linear-stripped`|<img alt="linear-stripped" src="https://github.com/kesav-m/react-password-strength-variant-indicator/blob/master/linear-stripped.png">|
+|`variant=discontinuous`|<img alt="discontinuous" src="https://github.com/kesav-m/react-password-strength-variant-indicator/blob/master/discontinuous.png">|
+|`variant=discontinuous-stripped`|<img alt="discontinuous-stripped" src="https://github.com/kesav-m/react-password-strength-variant-indicator/blob/master/discontinuous-stripped.png">|
+|`variant=circle`|<img alt="circle" src="https://github.com/kesav-m/react-password-strength-variant-indicator/blob/master/circle.png">|
+|`variant=line`|<img alt="circle" src="https://github.com/kesav-m/react-password-strength-variant-indicator/blob/master/line.png">|
 
 
 
