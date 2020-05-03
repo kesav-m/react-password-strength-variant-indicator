@@ -80,8 +80,8 @@ class StrengthCheck extends Component {
     }
     return (
       <>
+        <label>{this.props.labeltext}</label>
         <div className={mainClass.join(" ")}>
-          <label>{this.props.labeltext}</label>
           <input
             className={inputClass.join(" ")}
             type="password"
