@@ -67,7 +67,7 @@ class StrengthCheck extends Component {
     const { className, inputprops } = this.props;
     const { score, variant, strength, pwdValue } = this.state;
 
-    const { inputclass, ...input } = inputprops;
+    const { inputclass, ...input } = inputprops || '';
 
     if (inputprops && inputprops.inputclass) {
       inputClass.push(inputprops.inputclass);
