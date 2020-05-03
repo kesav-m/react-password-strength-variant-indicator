@@ -44,6 +44,7 @@ class MyApp extends Component {
         }}
         validscore="1"
         inputprops={this.state.inputprops}
+        variant="circle"
       />
       </div>
     );
@@ -57,6 +58,17 @@ class MyApp extends Component {
 |Prop name|Description|Default value|Example values|
 |----|----|----|----|
 |minLength|The minimum length of password to be typed.|5|`minLength=6`|
+|validscore|The minimum valid score the password should have(The score value ranges from 0 to 4 depends on strength and complexity)|2|`validscore=3`|
+|strength|The strength of the password based on the score | { 0: "Worst", 1: "Bad",2: "Weak",3: "Good",4: "Strong"}|`strength={0: "Weak",1: "Weak",2: "moderate",3: "Good",4: "Strong"}`|
+|className|The className which get added to the component|No|`className=form`|
+|inputprops|Object which accepts all the parameters that will be used in input tag|No|`inputprops={{inputclass: 'form-control-input',autocomplete: 'off'tabIndex=-1,}`|
+|variant|This gives different types of variant options that can be choosed for strength display|linear-stripped|`variant=line`|
+|labeltext|The label text for password field|No|`labeltext=Password`|
+|changecallback|A callback function which gets triggered onChange which gives the input value in the format `{value: typedValue,isValid: boolean,score: score}`.isValid is a boolean which depends on the input length and score.score value ranges from 0 to 4 which depends on password strength and complexity.value gives the inputvalue in the field
+|No|`changecallback={val => {changeCallBackHandler(val);}}`|
+
+#### Props
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
