@@ -1,81 +1,62 @@
-# Project Title
+# React Password Strength Indicator
 
-One Paragraph of project description goes here
+A password strength checker with various indicator options using [zxcvbn](https://www.npmjs.com/package/zxcvbn) library.
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+These instructions will get you a copy of the project up and running on your local machine for development.
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
-
-```
-Give examples
-```
+react/react-dom is a peer dependency. You should be using this in a React project.
 
 ### Installing
 
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
+Add password strength indicator to your project by executing
 
 ```
-Give the example
+npm install react-password-strength-variant-indicator
 ```
+### Usage
 
-And repeat
+Here's an example of basic usage:
 
+```js
+import React, { Component } from 'react';
+import StrengthCheck from "react-password-strength-variant-indicator";
+
+class MyApp extends Component {
+  state = {
+    inputprops: { inputclass: "form-control", autocomplete: "off", tabIndex: 0 },
+    value: ''
+  }
+
+  changeCallBackHandler = value => {
+   this.setState({ value: value })
+  };
+  
+  render() {
+    return (
+      <div>
+        <StrengthCheck
+        changecallback={val => {
+          changeCallBackHandler(val);
+        }}
+        validscore="1"
+        inputprops={this.state.inputprops}
+      />
+      </div>
+    );
+  }
+}
 ```
-until finished
-```
+## User guide
 
-End with an example of getting some data out of the system or using it for a little demo
+#### Props
 
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
-
-## Built With
-
-- [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-- [Maven](https://maven.apache.org/) - Dependency Management
-- [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags).
-
-## Authors
-
-- **Billie Thompson** - _Initial work_ - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
+|Prop name|Description|Default value|Example values|
+|----|----|----|----|
+|minLength|The minimum length of password to be typed.|5|`minLength=6`|
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
