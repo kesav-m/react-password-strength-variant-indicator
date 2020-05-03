@@ -67,14 +67,19 @@ class MyApp extends Component {
 |changecallback|A callback function which gets triggered onChange which gives the input value in the format `{value: typedValue,isValid: boolean,score: score}`.isValid is a boolean which depends on the input length and score.score value ranges from 0 to 4 which depends on password strength and complexity.value gives the inputvalue in the field
 |No|`changecallback={val => {changeCallBackHandler(val);}}`|
 
-#### Props
+#### variants
+
+|variant name|Example|
+|----|----|
+|`variant=linear`|![linear](https://github.com/kesav-m/react-password-strength-variant-indicator/blob/master/linear.png)|
+|`variant=linear-stripped`|![linear-stripped](https://github.com/kesav-m/react-password-strength-variant-indicator/blob/master/linear-stripped.png)|
+|`variant=discontinuous`|![discontinuous](https://github.com/kesav-m/react-password-strength-variant-indicator/blob/master/discontinuous.png)|
+|`variant=discontinuous-stripped`|![discontinuous-stripped](https://github.com/kesav-m/react-password-strength-variant-indicator/blob/master/discontinuous-stripped.png)|
+|`variant=circle`|![circle](https://github.com/kesav-m/react-password-strength-variant-indicator/blob/master/circle.png)|
+|`variant=line`|![line](https://github.com/kesav-m/react-password-strength-variant-indicator/blob/master/line.png)|
+
+
 
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
