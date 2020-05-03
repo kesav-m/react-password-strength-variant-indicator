@@ -81,4 +81,4 @@ class MyApp extends Component {
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/kesav-m/react-password-strength-variant-indicator/blob/master/LICENSE) file for details
