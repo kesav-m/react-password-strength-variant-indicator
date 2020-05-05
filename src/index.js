@@ -63,7 +63,7 @@ class StrengthCheck extends Component {
   };
   render() {
     const inputClass = ["strength"];
-    const mainClass = ["container"];
+    const mainClass = ["pwd-container"];
     const { className, inputprops } = this.props;
     const { score, variant, strength, pwdValue } = this.state;
 
