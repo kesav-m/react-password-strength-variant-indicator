@@ -85,6 +85,7 @@ class StrengthCheck extends Component {
             className={inputClass.join(" ")}
             type="password"
             onChange={e => this.onChangeHandler(e)}
+            value={this.state.pwdValue}
             {...input}
           />
           {pwdValue && (
