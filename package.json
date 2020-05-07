@@ -1,6 +1,6 @@
 {
   "name": "react-password-strength-variant-indicator",
-  "version": "1.0.6",
+  "version": "1.0.8",
   "description": "Password strength check indicator for react",
   "main": "./build/index.js",
   "scripts": {
@@ -9,8 +9,8 @@
   "author": "kesav",
   "license": "MIT",
   "repository": {
-  "type" : "git",
-  "url" : "https://github.com/kesav-m/react-password-strength-variant-indicator.git"
+    "type": "git",
+    "url": "https://github.com/kesav-m/react-password-strength-variant-indicator.git"
   },
   "dependencies": {
     "react": "16.12.0",
