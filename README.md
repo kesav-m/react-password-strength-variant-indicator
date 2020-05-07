@@ -2,6 +2,8 @@
 
 A password strength checker with various indicator options using [zxcvbn](https://www.npmjs.com/package/zxcvbn) library.
 
+### Demo App
+
 Try our [demo](https://password-strength-demo.netlify.app/) application.
 
 ## Getting Started
