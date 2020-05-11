@@ -12,6 +12,13 @@
     "type": "git",
     "url": "https://github.com/kesav-m/react-password-strength-variant-indicator.git"
   },
+  "keywords": [
+    "react",
+    "password",
+    "variant",
+    "react-password",
+    "indicator"
+  ],
   "dependencies": {
     "react": "16.12.0",
     "react-dom": "16.12.0",
