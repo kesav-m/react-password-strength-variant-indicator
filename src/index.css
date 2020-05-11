@@ -17,12 +17,12 @@
   }
   
   .primary-strength {
-    height: 8px;
+    height: 6px;
     transition: 2s;
     border-radius: 10px;
   }
   .primary-strength__stripped {
-    height: 8px;
+    height: 6px;
     transition: 2s;
     border-radius: 10px;
   }
